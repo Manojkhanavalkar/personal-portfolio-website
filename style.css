@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar{
+    background-color: rgb(196, 196, 195);
+    font-family: 'Roboto', sans-serif;
+    height: 146vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 40px;
+    padding: 58px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 80vw;
+    font-family: 'Roboto', sans-serif;
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: rgb(58, 198, 236); */
+    height: 58vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.devInfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 37px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.about{
+    font-size: 34px;
+    font-family: 'Roboto Mono', monospace;
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'Roboto Mono', monospace;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 15px;
+    border-radius: 21px;
+    color: whitesmoke;
+    background-color: deepskyblue;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 9px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 4);
+}
+.btn-sm{
+    font-size: 13px;
+    padding: 6px 9px 9px 7px;
+    margin: 8px 0 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.btn:hover{
+    color: deepskyblue;
+    background-color: whitesmoke;
+}
+.devPic img{
+    height: 58vh;
+}
+.contactform {
+    padding:0 34px;
+    padding-top: 144px;
+    font-family: 'Roboto', sans-serif;
+}
+.contactform h1{
+    font-family: 'Roboto Mono', monospace;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width:26vw;
+    border-radius:5px;
+    margin: 6px 0 0 0;
+    padding:3px;
+}
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 5px 0 0;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 28px;
+    margin: 2px 0 0;
+}
+#enquiry{
+    height: 100vh;
+}
+.blogItem {
+    margin:20px;
+    font-family: 'Roboto', sans-serif;
+}
+ h1{
+    font-family: 'Roboto', sans-serif;
+    margin: 23px;
+}
+ p{
+    font-family: 'Roboto Mono', monospace;
+    
+}
+.intro{
+    margin: 80px 90px;
+}
+.intro h2{
+    font-family: 'Roboto', sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Roboto Mono', monospace;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 21px;
+}
+.skill{
+    width: 268px;
+    height: 5px;
+    background-color: red;
+    margin: 10px;
+}
+.skillItem{
+    display: flex;
+    font-size: 20px;
+}
+.hundred{
+    width: 230px;
+    height: 5px;
+    background-color: rgb(244, 10, 10);
+    border: 3px solid black;
+}
+.fifty{
+    width: 125px;
+    height: 5px;
+    background-color: rgba(25, 228, 15, 0.906);
+    border: 3px solid black;
+}
+.t5{
+    width: 75px;
+    height: 5px;
+    background-color: rgb(7, 241, 241);
+    border: 3px solid black;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.cross{
+    margin-left: 215px;
+    margin-top: 10px;
+
+}
+
+@media (max-width:1450px) {
+   .devPic{
+    display: none;
+   }
+    
+}
